@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*---Box Sizing---*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+/*--Box Sizing End-*/
+
+.container {
+	float: left;
+	width: 100%;
+}
+
+header {
+	background-color: #f0e2c5;
+	margin-bottom: 40px;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px 0 40px 0;
+	font-family: 'Lobster', cursive;
+	font-size: 44px;
+	color: #421f09;
+	text-shadow: 2px 2px #FFFFFF;
+}
+
+
+#logo {
+	background:url(Smart_cook.gif) no-repeat center;
+	padding-top: 80px;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	text-indent: -9999px;
+}
+
+h2 {
+	border: 1px solid #654321;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 4px 30px 4px;
+	background-color: #000000;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+p {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 120%;
+}
+
+
+article {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+   	color: white;
+   	border: 1px solid #696969;
+}
+/* --- Better Helvetica via CSS Tricks --- */
+
+
+.box1 {
+	position: relative;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	background-color: #F08080;
+}
+
+.box2 {
+	position: relative;
+	width: 90%;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #8B4513;
+}
+
+.box3 {
+	position: relative;
+	width: 90%;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E9967A;
+}
+
+/*--- Desktop and Large devices ----*/
+
+@media (min-width: 992px) {
+	.col-lg-2, .col-lg-3, .col-lg-4 {
+		float: left;
+	}
+	.col-lg-2 {
+		width: 16.66%;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-4 {
+		width: 33.3%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-12 {
+		float: left;
+	}
+	.col-md-2 {
+		width: 16.66%;
+	}
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-4 {
+		width: 33.3%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+	.box3 {
+		width: 95%;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+}      
+
